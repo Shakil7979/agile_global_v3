@@ -94,6 +94,48 @@ $(document).ready(function(){
             }
         }
 	});
+	// Made Carousel
+	$('.offer_carousel').owlCarousel({
+		items:3,
+        margin : 20,
+		loop:true,
+		nav: true,
+		dots:false,
+		autoplay:true,
+		navText : [' <img src="assets/images/utility/offer/left.png" alt="">',' <img src="assets/images/utility/offer/right.png" alt="">'],
+        responsive : { 
+            0 : {
+                items:1,
+            }, 
+            768 : { 
+		        items:2,
+            },
+            991 : { 
+		        items:3,
+            }
+        }
+	});
+	// Made Carousel
+	$('.industry_carousel').owlCarousel({
+		items:4,
+        margin : 30,
+		loop:true,
+		nav: true,
+		dots:false,
+		autoplay:true,
+		navText : [' <img src="assets/images/utility/offer/left.png" alt="">',' <img src="assets/images/utility/offer/right.png" alt="">'],
+        responsive : { 
+            0 : {
+                items:1,
+            }, 
+            768 : { 
+		        items:2,
+            },
+            991 : { 
+		        items:4,
+            }
+        }
+	});
 
 	$('.back_to_top').click(function() { 
         $('html, body').animate({ scrollTop: 0 }, 'slow');

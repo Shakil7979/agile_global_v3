@@ -579,8 +579,8 @@
         line-height: 30px;
         margin: 8px 0;
     }
-    .right_img_boxsss img { 
-        height: auto;
+    .right_img_boxsss img {
+        height: 400px;
     }
     .overview_title.slider_title {
         width: 100%;

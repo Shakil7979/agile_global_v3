@@ -1534,12 +1534,12 @@ ul li a,a{
 	background: url(../images/utility/bg.png) no-repeat scroll center center / cover; 
 }
  
-.partner_title h3 { 
-	color: #fff; 
+.partner_title h3 {
+	color: #cdcee6;
 }
 
 .partner_title p {
-	color: #fff;
+	color: #f4f3f3;
 	width: 48%;
 	text-align: left;
 }

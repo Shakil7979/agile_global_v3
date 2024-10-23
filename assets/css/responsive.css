@@ -411,6 +411,9 @@
     .mobile_menu_child a { 
         font-size: 14px; 
     }
+    .banner_ut_text h3 {
+        font-size: 32px;  
+    }
     .right_img_boxsss {
         position: relative;
     }

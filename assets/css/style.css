@@ -1527,8 +1527,11 @@ ul li a,a{
 }
 
 .partner_area  {
-	background: url(../images/utility/parnter/bg.png) no-repeat scroll center center / cover;
- 
+	background: url(../images/utility/parnter/bg.png) no-repeat scroll center center / cover; 
+}
+
+.banner_utility  {
+	background: url(../images/utility/bg.png) no-repeat scroll center center / cover; 
 }
  
 .partner_title h3 { 
@@ -1591,6 +1594,12 @@ ul li a,a{
 	width: 100%;
 	height: 700px;
 	object-fit: cover;
+}
+
+.banner_ut_text h3 {
+	font-size: 54px;
+	color: #fff;
+	padding: 140px 0; 
 }
 
 /*======================  End Page  ======================*/

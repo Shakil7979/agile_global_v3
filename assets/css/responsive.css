@@ -54,6 +54,9 @@
 	.slider_3 { 
         background: #000816;
     }
+    .right_img_boxsss img { 
+        height: 500px; 
+    }
     .single_deep_item img { 
         height: 145px;
     }
@@ -408,6 +411,23 @@
     .mobile_menu_child a { 
         font-size: 14px; 
     }
+    .right_img_boxsss {
+        position: relative;
+    }
+    
+    .right_img_boxsss::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #020202ad;
+    }
+    
+    .overview_title.slider_title b {
+        font-size: 16px;
+    }
     .red_btn { 
         font-size: 14px; 
     }
@@ -555,6 +575,9 @@
         font-size: 25px;
         line-height: 30px;
         margin: 8px 0;
+    }
+    .right_img_boxsss img { 
+        height: auto;
     }
     .overview_title.slider_title {
         width: 100%;

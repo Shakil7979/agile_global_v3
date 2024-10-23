@@ -415,7 +415,7 @@
         font-size: 32px;  
     }
     .right_img_boxsss {
-        position: relative;
+        position: relative; 
     }
     
     .right_img_boxsss::after {

@@ -29,20 +29,27 @@ ul li a,a{
 }
 
 .header_area {
-	position: inherit; 
+	position: absolute; 
 	top: 0;
 	left: 0;
 	width: 100%;
-	z-index: 9;
-	background: #fff;
+	z-index: 9; 
 	transition: background-color 0.5s ease;
+}
+
+.header_area2{
+	position: inherit !important;
 }
 
 .header_white {
 	background: #fff;
 }
 
-.header_area .main_logo {
+.header_white .main_logo {
+	display: none;
+}
+
+.header_area2 .main_logo {
 	display: none;
 }
 
@@ -50,11 +57,19 @@ ul li a,a{
 	display: none;
 }
 
-.header_area .white_logo{
+.header_white .white_logo{
 	display: block;
 }
 
-.header_area .menu a {
+.header_area2 .white_logo{
+	display: block;
+}
+
+.header_white .menu a {
+	color: #000 !important;
+}
+
+.header_area2 .menu a {
 	color: #000 !important;
 }
 
@@ -397,7 +412,7 @@ ul li a,a{
 }
 
 
-/* .single_business_item::after {
+.single_business_item::after {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -406,13 +421,13 @@ ul li a,a{
 	height: 100%;
 	background: #ff0000;
 	opacity: 0.5;
-} */
+}
 
 .single_overlay_box {
 	position: absolute;
 	z-index: 999;
 	bottom: -100%;
-	background: #F07228;
+	background: #F70504;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -425,6 +440,10 @@ ul li a,a{
 
 .single_business_item:hover .single_overlay_box {
 	bottom: 0;
+}
+
+.single_overlay_box2{ 
+	background: #F70504;
 }
 
 
@@ -446,14 +465,18 @@ ul li a,a{
 
 
 
-/* .single_business_item_2::after { 
+.single_business_item_2::after { 
 	background: #e26624; 
 	opacity: 0.7;
 }
 
 .single_business_item_3::after { 
 	background: #3d3a37; 
-} */
+}
+
+.single_ut_bussiness::after {
+	background: transparent !important;
+}
 
 
 .deep_left p {
@@ -1515,6 +1538,56 @@ ul li a,a{
 .partner_title p { 
 	color: #fff; 
 	width: 48%;
+}
+
+.made_single_slider {
+	position: relative;
+}
+
+.left_side_slider {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	bottom: 0;
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+
+.overview_title.slider_title {
+	width: 73%;
+}
+
+.deep_area { 
+	background: #f4f3f3;
+}
+
+.slider_area2 {
+	background: #f4f3f3;
+	padding-bottom: 15px;
+}
+
+.make_carousel .owl-nav { 
+	transform: translateY(41px) !important;
+}
+
+.overview_ut_img img {
+	width: 100%;
+}
+
+.right_img_box {
+	position: relative;
+}
+
+.right_img_box::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #020202ad;
 }
 
 

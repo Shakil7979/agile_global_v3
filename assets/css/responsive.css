@@ -411,7 +411,7 @@
 }
 
 @media all and (max-width: 767px){
-    .mobile_menu_child a { 
+    .mobile_menu_child a {     
         font-size: 14px; 
     }
     .cyber_overview_title p {

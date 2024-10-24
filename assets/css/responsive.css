@@ -414,6 +414,12 @@
     .mobile_menu_child a {     
         font-size: 14px; 
     }
+    .security_img img {
+        width: 100%;
+    }
+    .nav-pills .nav-link { 
+        font-size: 16px; 
+    }
     .cyber_overview_title p {
         max-width: 100%;
         text-align: left;

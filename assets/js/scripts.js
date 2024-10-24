@@ -79,6 +79,7 @@ $(document).ready(function(){
         margin : 20,
 		loop:true,
 		nav: true,
+        autoplayTimeout: 8000, 
 		dots:true,
 		autoplay:true,
 		navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],

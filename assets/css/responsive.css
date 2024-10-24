@@ -11,6 +11,9 @@
     .logo img {
         width: 175px;
     }
+    .single_capble_item .single_overlay_box > h3 {
+        font-size: 18px;  
+    }
     .made_single {
         height: 455px;
     }
@@ -410,6 +413,25 @@
 @media all and (max-width: 767px){
     .mobile_menu_child a { 
         font-size: 14px; 
+    }
+    .cyber_overview_title p {
+        max-width: 100%;
+        text-align: left;
+    }
+    .overview_title.cyber_overview_title {
+        max-width: 100%;
+    }
+    .security_content {
+        margin-top: 45px;
+    }
+    .security_text h3 {
+        font-size: 20px; 
+    }
+    .security_text p {
+        font-size: 16px; 
+    }
+    .single_capble_item .single_business_item { 
+        width: 100%;
     }
     .banner_ut_text h3 {
         font-size: 32px;  

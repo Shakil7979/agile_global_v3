@@ -1400,7 +1400,7 @@ button:focus {
   
  
 
-.down-arrow { 
+/* .down-arrow { 
 	position: absolute;
 	animation: jumpInfinite 1.5s infinite;
 }
@@ -1415,6 +1415,14 @@ button:focus {
 	100% {
 		transform: translateY(0);
 	}
+} */
+
+.slide_down_icon.down-arrow img {
+	width: 45px;
+}
+
+.slide_down_icon.down-arrow a {
+	display: inline-block;
 }
 
 /* SUb page Utilites  */

@@ -133,7 +133,26 @@ ul li a,a{
 }
 
 .drop_middle_menu > ul > li > a {
-    display: block;  
+    display: inline-block;  
+	position: relative;
+	overflow: hidden;
+	transition: 0.3s;
+}
+
+.drop_middle_menu > ul > li > a:after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 3px;
+	background: #F00D0D;
+	bottom: 0;
+	left: -100%;
+	transition: 0.3s;
+}
+
+.drop_middle_menu > ul > li > a:hover:after {
+	
+	left: 0;
 }
  
 
@@ -142,15 +161,7 @@ ul li a,a{
 
 /* Basic styling for drop_middle_menu */
  
-
-.drop_middle_menu > ul > li > a {
-	display: block;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	width: 81%;
-
-}
+ 
   
 .sub-menu {
 	display: none;
@@ -776,7 +787,7 @@ button:focus {
 }
 
 .footer_social a i {
-	color: #000;
+	color: #fff;
 	font-size: 24px;
 }
 
@@ -1418,7 +1429,8 @@ button:focus {
 } */
 
 .slide_down_icon.down-arrow img {
-	width: 45px;
+	width: 28px;
+	opacity: 50%;
 }
 
 .slide_down_icon.down-arrow a {
@@ -1673,8 +1685,9 @@ button:focus {
  
 
 #pills-tab {
-	justify-content: center; 
-	border-bottom: 3px solid #000;
+	justify-content: center;
+	border-bottom: 3px solid #a8a8a8;
+	box-shadow: 0 2px 10px #eee;
 }
 
 .security_img img {
@@ -1721,6 +1734,85 @@ button:focus {
 	font-size: 20px;
 	color: #281f1f;
 }
+
+
+
+
+/* here is acrodion text for test  */
+
+ 
+ 
+
+.faqs-item {
+    width: 100%;  
+    display: block; 
+}
+
+.faqs-title {
+    display: flex;
+    position: relative; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    width: 100%;
+    outline: none;
+	color: #414141;
+    transition: 0.4s;
+}
+.faqs-title.active, 
+.faqs-title:hover {
+	color: #e31e24;
+}
+ 
+
+.faqs-title:after {
+    content: '\002B';  
+    font-weight: normal;
+    float: right;
+    margin-left: auto;
+    font-size: 24px;
+    line-height: 1;
+    padding-left: 20px;
+}
+
+.active:after {
+    content: "\2212";
+} 
+
+.faqs-content-inside {
+    padding: 20px;
+}
+
+.faqs-content {
+    padding: 0;
+    opacity: 0;
+    display: none;
+    transition: opacity 0.3s ease;
+}
+
+.faqs-content.show {
+    opacity: 1;
+    display: block;
+}
+
+
+
+.security_content_for_mobile {
+	display: none;
+}
+
+.security_content{
+	display: block;
+}
+
+
+
+
+
+
+
+
 
 
 /*======================  End Page  ======================*/

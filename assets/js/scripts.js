@@ -52,7 +52,7 @@ $(document).ready(function(){
         loop: true,
         nav: false,
         dots: true,
-        autoplay: true, 
+        // autoplay: true, 
         animateIn: 'fadeIn',   
         animateOut: 'fadeOut', 
         onTranslate: function(event) {
@@ -443,3 +443,33 @@ $(document).ready(function() {
 $(document).ready(function() {  
     $('.slider_carousel .owl-dots').addClass('container'); 
 });
+
+
+
+ 
+var acc = document.getElementsByClassName('faqs-title');
+
+// Open the first item by default
+acc[0].classList.add('active');
+acc[0].nextElementSibling.classList.add('show');
+
+for (let i = 0; i < acc.length; i++) {
+  acc[i].addEventListener('click', function (event) {
+    event.preventDefault(); // Prevent default anchor behavior if it's an <a> tag
+
+    // Close all other panels
+    for (let j = 0; j < acc.length; j++) {
+      if (acc[j] !== this) {  // Skip the current clicked element
+        acc[j].classList.remove('active');
+        acc[j].nextElementSibling.classList.remove('show'); // Hide other panels
+      }
+    }
+
+    // Toggle the clicked panel
+    this.classList.toggle('active');
+    this.nextElementSibling.classList.toggle('show');
+  });
+}
+
+
+

@@ -12,7 +12,7 @@
         width: 175px;
     }
     .single_capble_item .single_overlay_box > h3 {
-        font-size: 18px;  
+        font-size: 20px;  
     }
     .made_single {
         height: 455px;
@@ -56,6 +56,20 @@
 	.slider_2 ,
 	.slider_3 { 
         background: #000816;
+        height: auto;
+    } 
+    .security_item_content {
+        margin-top: 0;
+    }
+    .security_text {
+        margin-top: 25px;
+    }
+    .security_content_for_mobile {
+        display: block;
+    }
+    
+    .security_content{
+        display: none;
     }
     .right_img_boxsss img { 
         height: 500px; 
@@ -66,12 +80,15 @@
     .drop_menu_main { 
         z-index: 99999;
     } 
-    .slide_down_icon { 
-        bottom: 51px; 
+    .slide_down_icon {
+        bottom: -130px;
     }
     .made_single { 
         height: auto; 
         padding-bottom: 36px;
+    }
+    .banner_ut_text p {
+        font-size: 16px; 
     }
     .right_form_contact { 
         right: -58px; 
@@ -431,7 +448,7 @@
         margin-top: 45px;
     }
     .security_text h3 {
-        font-size: 20px; 
+        font-size: 18px;
     }
     .security_text p {
         font-size: 16px; 

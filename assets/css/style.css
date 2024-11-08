@@ -1781,9 +1781,9 @@ button:focus {
     padding-left: 20px;
 }
 
-.active:after {
+/* .active:after {
     content: "\2212";
-} 
+}  */
 
 .faqs-content-inside {
     padding: 20px;

@@ -436,6 +436,8 @@ $(document).ready(function() {
     $('.close_sk_form').on('click', function() {
         isClosed = true;  
         $('.form_hover').stop().animate({ right: '-600px' }, 500);
+
+        return false;
     });
 });
 

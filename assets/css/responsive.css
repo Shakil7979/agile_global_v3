@@ -431,6 +431,18 @@
     .mobile_menu_child a {     
         font-size: 14px; 
     }
+    .single_overlay_box p { 
+        font-size: 16px; 
+    }
+    .single_work_item.single_blog_post {
+        width: 100% !important; 
+    }
+    .overview_title p { 
+        text-align: left;
+    }
+    .single_capble_item .single_overlay_box > h3 {
+        font-size: 22px;
+    }
     .security_img img {
         width: 100%;
     }
@@ -623,6 +635,25 @@
         font-size: 25px;
         line-height: 30px;
         margin: 8px 0;
+    }
+    .banner_cyber {
+        background: url(../images/homepage/cyber/bg.png) no-repeat scroll center right / cover;
+        position: relative;
+    }
+    .banner_cyber:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: rgba(0,0,0,0.8);
+        z-index: 996;
+    }
+    .banner_ut_text {
+        padding: 140px 0;
+        position: relative;
+        z-index: 999;
     }
     .right_img_boxsss img {
         height: 400px;

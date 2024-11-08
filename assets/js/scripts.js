@@ -114,7 +114,7 @@ $(document).ready(function(){
 		nav: true,
 		dots:false,
 		autoplay:true,
-		navText : [' <img src="assets/images/utility/offer/left.png" alt="">',' <img src="assets/images/utility/offer/right.png" alt="">'],
+		navText : [' <img src="assets/images/homepage/utility/offer/left.png" alt="">',' <img src="assets/images/homepage/utility/offer/right.png" alt="">'],
         responsive : { 
             0 : {
                 items:1,
@@ -135,7 +135,7 @@ $(document).ready(function(){
 		nav: true,
 		dots:false,
 		autoplay:true,
-		navText : [' <img src="assets/images/utility/offer/left.png" alt="">',' <img src="assets/images/utility/offer/right.png" alt="">'],
+		navText : [' <img src="assets/images/homepage/utility/offer/left.png" alt="">',' <img src="assets/images/homepage/utility/offer/right.png" alt="">'],
         responsive : { 
             0 : {
                 items:1,

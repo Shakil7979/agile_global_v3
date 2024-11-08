@@ -80,9 +80,10 @@
     .drop_menu_main { 
         z-index: 99999;
     } 
-    .slide_down_icon {
-        bottom: 232px;
+    .slide_down_icon { 
+        bottom: 0; 
     }
+    
     .made_single { 
         height: auto; 
         padding-bottom: 36px;
@@ -188,7 +189,7 @@
         border-top: 1px solid #ddd;
         padding: 15px 0;
         display: none;
-        z-index: 99;
+        z-index: 9999;
     }
 
     .drop_menu_main {
@@ -431,6 +432,10 @@
     .mobile_menu_child a {     
         font-size: 14px; 
     }
+     
+    .slide_down_icon.down-arrow img {
+        width: 28px; 
+    }
     .single_mobile_ul > li > a {
         font-size: 16px; 
     }
@@ -657,6 +662,7 @@
         line-height: 30px;
         margin: 8px 0;
     }
+     
     .banner_cyber {
         background: url(../images/homepage/cyber/bg.png) no-repeat scroll center right / cover;
         position: relative;

@@ -24,7 +24,7 @@ ul li a,a{
 }
 /*======================  Start Page  ======================*/
 .banner_area {
-	background: url(../images/banner/bg.png) no-repeat scroll center center / cover;
+	background: url(../images/homepage/banner/bg.png) no-repeat scroll center center / cover;
 	padding: 412px 0 219px 0;
 }
 
@@ -74,7 +74,7 @@ ul li a,a{
 }
 
 .banner_area {
-	background: url(../images/banner/bg.png) no-repeat scroll center center / cover;
+	background: url(../images/homepage/banner/bg.png) no-repeat scroll center center / cover;
 }
 
 .banner {
@@ -618,22 +618,22 @@ button:focus {
 }
 
 .slider_3 {
-	background: url(../images/banner/bg.png) no-repeat scroll center center / cover; 
+	background: url(../images/homepage/banner/bg.png) no-repeat scroll center center / cover; 
 	height: 100vh;
 }
 
 .slider_1 {
-	background: url(../images/slider/1.png) no-repeat scroll center center / cover; 
+	background: url(../images/homepage/slider/1.png) no-repeat scroll center center / cover; 
 	height: 100vh;
 }
 
 .slider_2 {
-	background: url(../images/slider/2.png) no-repeat scroll center center / cover; 
+	background: url(../images/homepage/slider/2.png) no-repeat scroll center center / cover; 
 	height: 100vh;
 }
 
 .team_area { 
-	background: url(../images/team/join.png) no-repeat fixed center center / cover;
+	background: url(../images/homepage/team/join.png) no-repeat fixed center center / cover;
 	height: 100vh;
 	position: relative;
 }
@@ -1370,7 +1370,7 @@ button:focus {
 }
 
 .global_award_area {
-	background: url(../images/global/bg.png) no-repeat scroll center center / cover; 
+	background: url(../images/homepage/global/bg.png) no-repeat scroll center center / cover; 
 }
 
 .global_title h4,
@@ -1561,15 +1561,15 @@ button:focus {
 }
 
 .partner_area  {
-	background: url(../images/utility/parnter/bg.png) no-repeat scroll center center / cover; 
+	background: url(../images/homepage/utility/parnter/bg.png) no-repeat scroll center center / cover; 
 }
 
 .banner_utility  {
-	background: url(../images/utility/bg.png) no-repeat scroll center center / cover; 
+	background: url(../images/homepage/utility/bg.png) no-repeat scroll center center / cover; 
 }
 
 .banner_cyber  {
-	background: url(../images/cyber/bg.png) no-repeat scroll center center / cover; 
+	background: url(../images/homepage/cyber/bg.png) no-repeat scroll center center / cover; 
 }
 
 .text_decoration{

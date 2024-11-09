@@ -653,7 +653,21 @@
         width: 100%;
         max-width: 361px;
     }
- 
+    .form_group textarea, .form_group input { 
+        border-radius: 15px; 
+    }
+    .overview_title h3::after { 
+        width: 35px; 
+    }
+    .overview_title.capability_overview_title {
+        max-width: 100%;
+    }
+    .overview_title.ut_expert_overview_title h3 {
+        width: 100%;
+    }
+    .overview_title.industry_ut_title h3 {
+        width: 100%;
+    }
 }
 
 @media all and (max-width: 575px){
@@ -702,11 +716,7 @@
     }
     .slider_carousel .owl-dots {
         left: 33px;
-    }
-    .form_group textarea, .form_group input {
- 
-        border-radius: 20px; 
-    }
+    } 
     .slider_items h2 { 
         width: 100%;
         max-width: 267px;
@@ -744,5 +754,8 @@
 @media all and (max-width: 450px){
 	.subscribe_form { 
         flex-direction: column;
+    }
+    .ut_overview_title h3 {
+        width: 100%;
     }
 }

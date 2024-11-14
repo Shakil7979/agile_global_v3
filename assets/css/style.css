@@ -1845,11 +1845,102 @@ button:focus {
 }
 
 
+.office_item_single h3 {
+	font-size: 18px;
+	color: #084873;
+	font-weight: 700;
+	font-family: "Inter", sans-serif;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+	letter-spacing: 1.3px;
+}
 
+.office_item_single h3 span {
+	color: #e6353a;
+}
 
+.office_item_single  a,
+.office_item_single p { 
+	font-size: 16px;
+	color: #231f20;
+}
 
+.office_item_content {
+	margin-bottom: 20px;
+}
 
+.office_item_content p {
+	width: 74%;
+}
 
+.office_tabs_content{
+	margin: 50px 0;
+}
+
+.office_tabs_row {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ddd;
+}
+
+#myTab button {
+	display: flex;
+	flex-direction: column;
+	font-size: 24px;
+	justify-content: center;
+	align-items: center;
+	height: 224px;
+	gap: 5px;
+	width: 240px;
+	font-weight: 900;
+	color: #89898d;
+	background: transparent;
+	padding: 20px 0 0 0;
+}
+
+#myTab button img {
+	width: 120px;
+} 
+
+.btn_profile img {
+	width: 80px !important;
+}
+
+.sk_img_btn_box {
+	height: 200px;
+	display: flex;
+	align-items: end;
+}
+
+#myTab .nav-link.active {
+	border: 1px solid #dee2e6;
+}
+
+.form_group_2{
+	margin-bottom: 40px;
+}
+
+.form_group_2 textarea, .form_group_2 input { 
+	border: 1px solid #6d6d6d;
+	padding: 16px 20px; 
+	font-size: 16px;
+	width: 100%;
+	text-transform: capitalize;
+	background: transparent;
+}
+
+.form_group_2 textarea {
+	resize: none;
+	height: 200px;
+}
+
+.form_btn_2 {
+	text-align: center;
+}
+
+.contact_area{
+	background: #f4f3f3;
+}
 
 /*======================  End Page  ======================*/
 

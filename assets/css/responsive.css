@@ -668,6 +668,15 @@
     .overview_title.industry_ut_title h3 {
         width: 100%;
     }
+    .office_item_single {
+        margin-top: 25px;
+    }
+    .office_item_content {
+        margin-bottom: 10px;
+    }
+    .office_item_single h3 { 
+        margin-bottom: 10px; 
+    }
 }
 
 @media all and (max-width: 575px){
@@ -676,10 +685,25 @@
         line-height: 30px;
         margin: 8px 0;
     }
-     
+    #myTab button img {
+        width: 68px;
+    }
+    .btn_profile img {
+        width: 50px !important;
+    }
+    #myTab button { 
+        height: 150px; 
+        width: 150px; 
+    }
     .banner_cyber {
         background: url(../images/homepage/cyber/bg.png) no-repeat scroll center right / cover;
         position: relative;
+    }
+    .office_tabs_content {
+        margin: 10px 0;
+    }
+    #myTab button {
+        font-size: 18px; 
     }
     .banner_cyber:after {
         content: '';

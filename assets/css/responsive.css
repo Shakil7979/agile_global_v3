@@ -8,6 +8,10 @@
     .vission_item p {
         font-size: 16px; 
     }
+    .compass_single { 
+        padding: 50px 20px;
+        border-radius: 30px;
+    }
 }
 
 @media all and (max-width: 1199px){

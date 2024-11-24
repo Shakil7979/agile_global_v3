@@ -1942,6 +1942,128 @@ button:focus {
 	background: #f4f3f3;
 }
 
+.about_video video {
+	width: 100%; 
+}
+
+.about_us_baner{
+	position: relative;
+}
+
+.about_banner{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	bottom: 0;
+	margin: auto;
+}
+
+.about_banner .banner_ut_text{
+	margin-top: 250px;
+}
+
+.vission_area{
+	background: url(../images/about/vission.png) no-repeat scroll center center / cover;
+}
+
+.vission_item{
+	padding: 40px;
+	height: 330px;
+	border-radius: 20px;
+	background: #f63333;
+	position: relative;
+}
+
+.vission_item h4 {
+	font-size: 24px;
+	color: #000;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.vission_item p {
+	font-size: 18px;
+	color: #000;  
+}
+
+.mission_items{
+	background: #f48c33;
+}
+
+.vission_item img {
+	position: absolute;
+	bottom: 0;
+	right: 0; 
+}
+
+.compass_row{
+	display: flex;  
+	gap: 20px;
+}
+
+.compass_col {
+	flex: 0 0 calc(100% / 5 - 20px);
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.compass_single{
+	height: 235px;
+	background: #f7f0ef;
+	padding: 50px 40px ;
+	border-radius:  30px;
+}
+
+.compass_single h3{
+	font-size: 18px;
+	color: #000;
+	margin-bottom: 10px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.compass_single p{
+	font-size: 14px;
+	color: #000; 
+}
+
+.compass_img img {
+	width: 100%;
+	height: 235px;
+}
+
+.compass_box {
+	padding-top: 112px;
+}
+
+.compass_col_top{
+	transform: translateY(-50px);
+}
+ 
+
+.solutions_area{
+	background: #f4f3f3;
+}
+
+.soltion_left p {
+	font-size: 18px;
+	color: #124560;
+	margin-bottom: 30px;
+	width: 90%;
+	text-align: justify;
+}
+
+.abt_partner p {
+	width: 43%;
+}
+
+
+
+
 /*======================  End Page  ======================*/
 
 /* 

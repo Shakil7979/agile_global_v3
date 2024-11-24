@@ -5,14 +5,33 @@
     .made_single { 
         height: 400px; 
     }
+    .vission_item p {
+        font-size: 16px; 
+    }
 }
 
 @media all and (max-width: 1199px){
     .logo img {
         width: 175px;
     }
+    .vission_item {
+        padding: 28px; 
+    } 
+    .compass_col {
+        flex: 0 0 calc(100% / 3 - 20px); 
+    } 
+    .compass_row{ 
+        flex-wrap: wrap;
+    }
+    
+    .compass_col_top{
+        transform: translateY(0);
+    }
     .single_capble_item .single_overlay_box > h3 {
         font-size: 20px;  
+    }
+    .about_banner .banner_ut_text {
+        margin-top: 54px;
     }
     .made_single {
         height: 455px;
@@ -58,6 +77,19 @@
         background: #000816;
         height: auto;
     } 
+    .compass_col {
+        flex: 0 0 calc(100% / 2 - 20px); 
+    } 
+    .vission_item {
+        padding: 28px;
+        height: 200px;
+        margin-bottom: 25px;
+        padding-right: 110px;
+    }
+    
+    .about_us_baner { 
+        margin-top: 75px;
+    }
     .security_item_content {
         margin-top: 0;
     }
@@ -432,6 +464,20 @@
     .mobile_menu_child a {     
         font-size: 14px; 
     }
+    .about_banner .banner_ut_text {
+        margin-top: 35px;
+    }
+    .soltion_left p {
+        font-size: 16px; 
+        margin-bottom: 22px;
+        width: 100%; 
+    }
+    .solution_img img {
+        width: 100%;
+    }
+    .vission_item { 
+        height: 300px; 
+    }
      
     .slide_down_icon.down-arrow img {
         width: 28px; 
@@ -685,8 +731,18 @@
         line-height: 30px;
         margin: 8px 0;
     }
+    .compass_col {
+        flex: 0 0 calc(100% / 1); 
+    } 
+    .about_banner .banner_ut_text {
+        margin-top: -67px;
+    }
     #myTab button img {
         width: 68px;
+    }
+    .about_video video {
+        width: 100%;  
+        height: 269px;
     }
     .btn_profile img {
         width: 50px !important;
@@ -781,5 +837,9 @@
     }
     .ut_overview_title h3 {
         width: 100%;
+    }
+    .vission_item { 
+        height: 360px; 
+        padding-right: 55px;
     }
 }

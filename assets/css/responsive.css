@@ -833,6 +833,16 @@
     .slider_items p { 
         margin-bottom: 27px;
     }
+    .compass_single {
+        border-radius: 15px;
+    }
+    .compass_img img {
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    .compass_box {
+        padding-top: 40px;
+    }
 }
 
 @media all and (max-width: 450px){

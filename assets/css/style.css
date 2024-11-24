@@ -2002,6 +2002,7 @@ button:focus {
 .compass_row{
 	display: flex;  
 	gap: 20px;
+	flex-wrap: wrap;
 }
 
 .compass_col {
@@ -2043,7 +2044,6 @@ button:focus {
 .compass_col_top{
 	transform: translateY(-50px);
 }
- 
 
 .solutions_area{
 	background: #f4f3f3;

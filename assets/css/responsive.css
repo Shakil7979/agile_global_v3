@@ -894,6 +894,18 @@
         padding-right: 2rem;
         padding-left: 2rem; 
     }
+    
+    .vission_item {
+        height: auto;
+        padding-right: 55px;
+    }
+    .vission_item img { 
+        width: 137px;
+    } 
+    .vission_item h4 {
+        font-size: 20px;  
+        margin-bottom: 10px;
+    }
 }
 
 @media all and (max-width: 450px){
@@ -902,9 +914,5 @@
     }
     .ut_overview_title h3 {
         width: 100%;
-    }
-    .vission_item { 
-        height: 360px; 
-        padding-right: 55px;
     }
 }

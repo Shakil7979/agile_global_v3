@@ -52,7 +52,7 @@ $(document).ready(function(){
         loop: true,
         nav: false,
         dots: true,
-        // autoplay: true, 
+        autoplay: true, 
         animateIn: 'fadeIn',   
         animateOut: 'fadeOut', 
         onTranslate: function(event) {
@@ -69,6 +69,15 @@ $(document).ready(function(){
                 'transition': 'all 1.5s ease' 
             });
         }
+    });
+
+    $('.mobile_compass_carousel').owlCarousel({
+        items: 1,
+        loop: true,
+        nav: true,
+        dots: true,
+        // autoplay: true,  
+        navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
     });
 
  

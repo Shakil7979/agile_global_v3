@@ -2061,7 +2061,34 @@ button:focus {
 	width: 43%;
 }
 
+.mobile_compass{
+	display: none;
+}
 
+.compass_box{
+	display: block;
+}
+
+.mobile_compass_carousel{
+	position: relative;
+}
+
+.mobile_compass_carousel .owl-next {
+	position: absolute;
+	top: 60%;
+	right: -24px; 
+}
+
+.mobile_compass_carousel .owl-prev {
+	position: absolute;
+	top: 60%; 
+	left: -24px;
+}
+
+.mobile_compass_carousel .owl-next i ,
+.mobile_compass_carousel .owl-prev i {
+	font-size: 35px;
+}
 
 
 /*======================  End Page  ======================*/

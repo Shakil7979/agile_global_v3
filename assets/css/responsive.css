@@ -890,7 +890,7 @@
     .compass_box {
         padding-top: 40px;
     }
-    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    .company_area .container  {
         padding-right: 2rem;
         padding-left: 2rem; 
     }

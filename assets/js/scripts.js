@@ -1,9 +1,14 @@
+
+
+
 $(document).ready(function(){  
 
-    // $('.slide_down_icon').on('click', function(event) {
-    //     event.preventDefault();
-    //     $('.overview_area').slideToggle('slow');
-    // });
+    
+    $(function(){
+        if (!$('#mixitup_box').hasClass('mixitup-container')) {
+            $('#mixitup_box').mixItUp();
+        }
+    });
 
     $('.slide_down_icon a').on('click', function(event) {
         event.preventDefault(); 
@@ -481,6 +486,4 @@ for (let i = 0; i < acc.length; i++) {
     this.nextElementSibling.classList.toggle('show');
   });
 }
-
-
 

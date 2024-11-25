@@ -1950,6 +1950,17 @@ button:focus {
 	position: relative;
 }
 
+.about_us_baner::after{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+	background: rgba(0,0,0,0.4)
+}
+
 .about_banner{
 	position: absolute;
 	top: 0;
@@ -1958,6 +1969,7 @@ button:focus {
 	height: 100%;
 	bottom: 0;
 	margin: auto;
+	z-index: 99;
 }
 
 .about_banner .banner_ut_text{
@@ -2089,6 +2101,101 @@ button:focus {
 .mobile_compass_carousel .owl-prev i {
 	font-size: 35px;
 }
+
+.team_banner p {
+	max-width: 300px ;
+}
+
+.sk_single_team_item img {
+	width: 100%;
+	height: 380px;
+	transition: 0.5s;
+}
+
+.sk_single_team_item img:hover{
+	transform: scale(1.2);
+}	
+
+.sk_single_team_item h4 {
+	font-size: 20px;
+	color: #09344f;
+	font-weight: 700;
+	font-family: "Inter", sans-serif;
+	margin-bottom: 4px;
+	margin-top: 25px;
+}
+
+.sk_single_team_item p {
+	font-size: 16px;
+	color: #58595b;
+	text-transform: uppercase; 
+}
+
+.sk_single_team_item{
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+
+.sk_single_tem_img{ 
+	overflow: hidden;
+}
+
+.ul_team_btn button {
+	background: #DAD8D8;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 15px;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 500;
+	transition: 0.3s;
+}
+
+.ul_team_btn button:hover,
+.ul_team_btn button.active {
+	background: #6A5757; 
+	color: #fff;
+}
+
+.ul_team_btn {
+	display: flex;
+	gap: 24px;
+	margin-bottom: 30px;
+} 
+
+.mix { 
+    display: none; 
+}
+.mixitup-container .mix {
+    display: block;
+}
+
+.join_team_left img {
+	width: 100%;
+}
+
+.join_team_area{
+	position: relative;
+}
+
+.join_team_box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.sk_team_join_img{
+	display: none;
+}
+
+.join_team_img{
+	display: block;
+}
+
 
 
 /*======================  End Page  ======================*/

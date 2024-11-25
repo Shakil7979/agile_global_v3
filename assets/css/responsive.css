@@ -18,6 +18,9 @@
     .logo img {
         width: 175px;
     }
+    .sk_single_team_item img { 
+        height: 280px; 
+    }
     .vission_item {
         padding: 28px; 
     } 
@@ -81,6 +84,9 @@
         background: #000816;
         height: auto;
     } 
+    .sk_single_team_item img {
+        height: 210px;
+    }
     .compass_img{ 
         flex: 0 0 calc(100% / 2 - 20px);
     }
@@ -493,6 +499,35 @@
 @media all and (max-width: 767px){
     .mobile_menu_child a {     
         font-size: 14px; 
+    }   
+    .header_area .main_logo {
+        display: none;
+    }
+
+    .header_area .white_logo{
+        display: block;
+    }
+    .join_team_box {
+        position: inherit; 
+    }
+    .join_team_content .row {
+        flex-direction: column-reverse;
+    }
+    .sk_team_join_img img {
+        width: 100%;
+        margin-top: 45px;
+    }
+    .sk_team_join_h3 {
+        margin-top: 30px;
+    }
+    .join_team_img{
+        display: none;
+    } 
+    .sk_team_join_img{
+        display: block;
+    }
+    .sk_single_team_item img {
+        height: auto;
     }
     .about_banner .banner_ut_text {
         margin-top: 35px;
@@ -760,6 +795,13 @@
         font-size: 25px;
         line-height: 30px;
         margin: 8px 0;
+    }
+    .ul_team_btn button { 
+        padding: 8px 9px; 
+        font-size: 14px; 
+    }
+    .ul_team_btn { 
+        gap: 15px; 
     }
     .compass_single h3 {
         font-size: 14px; 

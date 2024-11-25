@@ -84,6 +84,9 @@
         background: #000816;
         height: auto;
     } 
+    .team_banner p {
+        max-width: 190px !important;
+    }
     .sk_single_team_item img {
         height: 210px;
     }

@@ -53,6 +53,10 @@ ul li a,a{
 	display: none;
 }
 
+/* .main_logo {
+	display: none;
+} */
+
 .white_logo{
 	display: none;
 }
@@ -1943,7 +1947,12 @@ button:focus {
 }
 
 .about_video video {
-	width: 100%; 
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
 }
 
 .about_us_baner{

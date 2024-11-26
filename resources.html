@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <!-- Fontawesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css"> 
         <!-- Normalize -->
         <link rel="stylesheet" href="assets/css/normalize.css">
         <!-- CSS Files -->
@@ -339,8 +340,7 @@
                             <ul>
                                 <li><a class="text_decoration" href="index.html">Home</a></li>
                                 <li><a href="#">></a></li>
-                                <li><a class="text_decoration" href="resources.html">Resources</a></li>
-                                <li><a href="#">></a></li> 
+                                <li><a class="text_decoration" href="resources.html">Resources</a></li> 
                             </ul>
                         </div>
                     </div>
@@ -351,10 +351,7 @@
                             <h3>Resource Center </h3>
                             <p>Explore insights, blog posts, whitepapers, <br> articles and success stories</p>
                         </div>
-                    </div> 
-                    <div class="resource_img">
-                        <img src="assets/images/resources/banner/overlay.png" alt="">
-                    </div>
+                    </div>  
                 </div>
             </section>
             <!--=====================  End Banner Area  ====================--> 
@@ -371,7 +368,7 @@
                             <div class="resources_select_row">
                                 <p>Filter By:</p>
                                 <div class="select_rousrce">
-                                    <select name="" id="">
+                                    <select name="" class="js-select2">
                                         <option value="">Industries</option>
                                         <option value="">Insurance</option>
                                         <option value="">Government</option>
@@ -384,7 +381,7 @@
                                     </select>
                                 </div>
                                 <div class="select_rousrce">
-                                    <select name="" id="">
+                                    <select name="" id="" class="js-select2">
                                         <option value="">Topics</option>
                                         <option value="">SAP</option>
                                         <option value="">Salesforce</option>
@@ -397,15 +394,16 @@
                                     </select>
                                 </div>
                                 <div class="select_rousrce">
-                                    <select name="" id="">
+                                    <select name="" id="" class="js-select2">
                                         <option value="">Content Type</option>
                                         <option value="">Blog</option>
                                         <option value="">Casestudy</option>
-                                        <option value="">Whitepapers=</option>
+                                        <option value="">Whitepapers</option>
                                         <option value="">Brochure</option>
                                         <option value="">Articles</option> 
                                     </select>
-                                </div>
+                                </div> 
+                                
                             </div>
                             <div class="resources_btn">
                                 <ul>
@@ -414,8 +412,148 @@
                                 </ul>
                             </div>
                         </div>
+                    </div>    
+
+                    <div class="resource_area">
+                        <div class="row g-5">
+                            <div class="col-md-4">
+                                <a href="blog-post.html" class="single_link">
+                                    <div class="single_resource">
+                                        <div class="resourche_item_img">
+                                            <img src="assets/images/resources/blog/1.png" alt="">
+                                        </div>
+                                        <div class="resource_content">
+                                            <h5>BLOG POST &nbsp; | &nbsp;  CYBER SECURITY  </h5>
+                                            <h3>Building Resilient Defenses in a  Digital World</h3>
+                                            <p>Learn how to protect your business from evolving cyber threats with proactive strategies and robust technologies. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="blog-post.html" class="single_link">
+                                    <div class="single_resource">
+                                        <div class="resourche_item_img">
+                                            <img src="assets/images/resources/blog/2.png" alt="">
+                                        </div>
+                                        <div class="resource_content">
+                                            <h5>BLOG POST &nbsp; | &nbsp;  CYBER SECURITY  </h5>
+                                            <h3>Generative AI in Business: Opportunities and Challenges</h3>
+                                            <p>Discover how generative AI is reshaping industries and unlocking new possibilities for innovation. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="blog-post.html" class="single_link">
+                                    <div class="single_resource">
+                                        <div class="resourche_item_img">
+                                            <img src="assets/images/resources/blog/3.png" alt="">
+                                        </div>
+                                        <div class="resource_content">
+                                            <h5>BLOG POST &nbsp; | &nbsp;  CYBER SECURITY  </h5>
+                                            <h3>Guardians of the Digital Frontier</h3>
+                                            <p>Building a Future-Proof Cybersecurity Framework </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="blog-post.html" class="single_link">
+                                    <div class="single_resource">
+                                        <div class="resourche_item_img">
+                                            <img src="assets/images/resources/blog/4.png" alt="">
+                                        </div>
+                                        <div class="resource_content">
+                                            <h5>BLOG POST &nbsp; | &nbsp;  CYBER SECURITY  </h5>
+                                            <h3>Empowering the Utilities Sector with Seamless Digital Transformation</h3>
+                                            <p>Discover how Agile Global Solutions streamlined operations and enhanced efficiency for a leading utilities provider through innovative IT solutions 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="blog-post.html" class="single_link">
+                                    <div class="single_resource">
+                                        <div class="resourche_item_img">
+                                            <img src="assets/images/resources/blog/5.png" alt="">
+                                        </div>
+                                        <div class="resource_content">
+                                            <h5>BLOG POST &nbsp; | &nbsp;  CYBER SECURITY  </h5>
+                                            <h3>Agile Global Solutions: A Tradition of Excellence and Recognition</h3>
+                                            <p>Celebrating a Legacy of Innovation, Growth, and Industry Leadership 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="blog-post.html" class="single_link">
+                                    <div class="single_resource">
+                                        <div class="resourche_item_img">
+                                            <img src="assets/images/resources/blog/6.png" alt="">
+                                        </div>
+                                        <div class="resource_content">
+                                            <h5>BLOG POST &nbsp; | &nbsp;  CYBER SECURITY  </h5>
+                                            <h3>Ethical AI: Navigating Bias in Generative Models</h3>
+                                            <p>Addressing the critical need for transparency, fairness, and accountability in AI-generated content. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="blog-post.html" class="single_link">
+                                    <div class="single_resource">
+                                        <div class="resourche_item_img">
+                                            <img src="assets/images/resources/blog/7.png" alt="">
+                                        </div>
+                                        <div class="resource_content">
+                                            <h5>BLOG POST &nbsp; | &nbsp;  CYBER SECURITY  </h5>
+                                            <h3>The Human Factor in Cybersecurity</h3>
+                                            <p>Understanding how employee awareness and behavior shape your organization’s first line of defense.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="blog-post.html" class="single_link">
+                                    <div class="single_resource">
+                                        <div class="resourche_item_img">
+                                            <img src="assets/images/resources/blog/8.png" alt="">
+                                        </div>
+                                        <div class="resource_content">
+                                            <h5>BLOG POST &nbsp; | &nbsp;  CYBER SECURITY  </h5>
+                                            <h3>Transforming Business Intelligence for Insurance Company</h3>
+                                            <p>Check out how we enhanced productivity with AI-powered tools that for faster workflows and driving smarter decisions. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="blog-post.html" class="single_link">
+                                    <div class="single_resource">
+                                        <div class="resourche_item_img">
+                                            <img src="assets/images/resources/blog/9.png" alt="">
+                                        </div>
+                                        <div class="resource_content">
+                                            <h5>BLOG POST &nbsp; | &nbsp;  CYBER SECURITY  </h5>
+                                            <h3>Driving Growth with Expert Solutions and Services</h3>
+                                            <p>Addressing the critical need for transparency, fairness, and accountability in AI-generated content.
+ 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                </div> 
             </section>
             <!--=====================  End Resources Area  ====================--> 
  
@@ -603,7 +741,20 @@
         <script src="assets/js/owl.carousel.min.js"></script>
         <!-- Modernizr -->
         <script src="assets/js/modernizr-3.11.2.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.full.js"></script>
         <!-- Custom JS (Handed)-->
         <script src="assets/js/scripts.js"></script>
+        <script>
+            $(document).ready(function() {
+                $(".js-select2").select2({
+                    minimumResultsForSearch: Infinity
+                });
+                $(".js-select2-multi").select2();
+            
+                $(".large").select2({
+                dropdownCssClass: "big-drop",
+                });
+            });
+        </script>
     </body>
 </html>

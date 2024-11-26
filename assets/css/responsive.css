@@ -18,6 +18,9 @@
     .logo img {
         width: 175px;
     }
+    .select_rousrce {
+        width: 180px;
+    }
     .sk_single_team_item img { 
         height: 280px; 
     }
@@ -84,6 +87,22 @@
         background: #000816;
         height: auto;
     } 
+    .resources_btn li {
+        flex: 0 0 auto;
+    }
+    .resources_btn button { 
+        width: 115px; 
+    }
+    .resources_btn ul { 
+        justify-content: center;
+    }
+    .resources_btn {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .resources_row { 
+        flex-direction: column;
+    }
     .team_banner p {
         max-width: 190px !important;
     }
@@ -502,12 +521,21 @@
 @media all and (max-width: 767px){
     .mobile_menu_child a {     
         font-size: 14px; 
-    }   
+    }  
+    .select_rousrce {
+        width: 128px;
+    } 
+    .resource_content p {
+        font-size: 16px; 
+    }
     .banner_ut_text ul li h5 {
         font-size: 16px; 
     }
     .header_area .main_logo {
         display: none;
+    }
+    .resources_select_row { 
+        flex-wrap: wrap;
     }
     .banner_ut_text ul { 
         gap: 15px; 
@@ -803,6 +831,13 @@
         font-size: 25px;
         line-height: 30px;
         margin: 8px 0;
+    }
+    
+    .resource_content p {
+        font-size: 14px; 
+    }
+    .select_rousrce {
+        width: 157px;
     }
     .ul_team_btn button { 
         padding: 8px 9px; 

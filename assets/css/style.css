@@ -1597,6 +1597,27 @@ button:focus {
 	background: url(../images/contact/bg.png) no-repeat scroll center center / cover; 
 }
 
+.blog_post_bg  {
+	background: url(../images/blog-post/banner.png) no-repeat scroll center center / cover; 
+}
+
+.resources_banner  {
+	position: relative;
+	background: url(../images/resources/banner/banner.png) no-repeat scroll center center / cover; 
+}
+
+.resource_img img{
+	position: absolute;
+	top: 0;
+	left: 0; 
+	height: 100%;
+}
+
+.resources_banner .banner_ut_text{
+	position: relative;
+	z-index: 99;
+}
+
 .text_decoration{
 	transition: 0.5s;
 }
@@ -2205,6 +2226,75 @@ button:focus {
 	display: block;
 }
 
+.banner_ut_text ul li h5 { 
+	font-size: 20px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.banner_ut_text ul {
+	display: flex;
+	gap: 28px;
+	margin-bottom: 30px;
+}
+
+.blog_content img{
+	width: 100%;
+}
+
+.resources_btn button {
+	width: 100%;
+	max-width: 115px;
+	height: 60px;
+	background: transparent;
+	border: 1px solid #ed7c1c;
+	font-size: 20px;
+}
+
+.select_rousrce select {
+	width: 100%;
+	max-width: 300px;
+	height: 60px;
+	font-size: 20px;
+	padding: 0 22px;
+	background: transparent;
+	border: 1px solid #ddd;
+}
+
+.select_rousrce {
+	width: 260px;
+}
+
+.resources_select_row p {
+	font-size: 20px;
+}
+
+.resources_row {
+	display: flex;
+	gap: 30px;
+	align-items: center; 
+}
+
+.resources_select_row {
+	display: flex;
+	align-items: center;
+	flex: 0 0 74%;
+	gap: 18px;
+}
+
+.resources_btn{
+	flex: 23%;
+}
+
+.resources_btn ul {
+	display: flex;
+	gap: 18px;
+}
+
+.resources_btn li {
+	flex: 50%;
+}
+ 
 
 
 /*======================  End Page  ======================*/

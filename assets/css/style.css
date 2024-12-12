@@ -484,7 +484,7 @@ ul li a,a{
 
 .single_overlay_box p {
 	color: #fff;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 23px;
 	width: 100%;
 	max-width: 80%;
@@ -2539,4 +2539,51 @@ font-family: "Inter", sans-serif;
 	background: #f9f9f9;
 }
 
+.careers_title {
+	width: 100%;
+	max-width: 702px;
+}
 
+.careears_action {
+	background: #f9f9f9;
+}
+
+
+.action_careers .single_business_item { 
+	width: 100%;
+	height: 390px;
+	max-width: 275px;
+}
+
+.action_careers .single_business_item:hover {
+	transform: translateY(-10px);
+}
+
+.action_careers 
+.single_business_item img {
+	transition: 0.3s;
+	width: 100%;
+	height: 100%;
+}
+
+.action_careers 
+.single_business_item::after{
+	position: inherit;
+	background: transparent;
+}
+
+.action_careers 
+.single_business_item > h3 { 
+	padding: 0 40px; 
+}
+
+.action_careers 
+.single_overlay_box { 
+	padding: 30px; 
+}
+
+.action_careers 
+.single_overlay_box p { 
+	max-width: 100%;
+	font-size: 16px;
+}

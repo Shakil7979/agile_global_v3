@@ -87,6 +87,9 @@
         background: #000816;
         height: auto;
     } 
+    .action_careers .single_business_item { 
+        max-width: 100%;
+    }
     .resources_btn li {
         flex: 0 0 auto;
     }

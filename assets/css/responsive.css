@@ -515,7 +515,14 @@
     .drop_back {
         display: block;
     }
-    
+
+.client_page_banner {
+    padding: 85px 0;
+}
+.client_page_banner {
+    margin-top: 10px !important;
+}
+
 }
 
 @media all and (max-width: 767px){
@@ -824,6 +831,10 @@
     .office_item_single h3 { 
         margin-bottom: 10px; 
     }
+.client_page_banner {
+    padding: 55px 0;
+}
+
 }
 
 @media all and (max-width: 575px){
@@ -991,6 +1002,37 @@
         font-size: 20px;  
         margin-bottom: 10px;
     }
+.client_page_banner {
+    padding: 45px 0;
+}
+.partner_success_area {
+    padding: 55px 0px 45px 0px;
+}
+.client_success_area {
+    padding: 45px 0px 55px 0px;
+}
+.overview_title h4 {
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.resources_select_row {
+    flex-direction: column;
+    width: 100%;
+}
+.select_rousrce {
+    width: 100%;
+}
+.resources_select_row p {
+    width: 100%;
+}
+.resources_btn ul {
+    flex-direction: column;
+}
+.resources_btn button {
+    max-width: 100%;
+    width: 100%;
+}
+
 }
 
 @media all and (max-width: 450px){

@@ -2252,10 +2252,10 @@ button:focus {
 	transition: 0.3s;
 }
 
-.resources_btn button:hover { 
-	border: 1px solid #084873; 
-	background: #084873;
-	color: #fff;
+.resources_btn button:hover {
+    border: 1px solid #ec7200;
+    background: #ec7200;
+    color: #fff;
 }
 
 /* .select_rousrce select {
@@ -2519,4 +2519,24 @@ font-family: "DM Sans", sans-serif;
 font-family: "Inter", sans-serif; 
 
 */
+
+
+
+/*Start Client Page*/
+.client_page_banner h3{
+	font-size: 60px;
+	font-weight: 700;
+	max-width: 700px;
+}
+.client_page_banner p{
+	max-width: 700px;
+}
+.partner_success_area{
+	padding: 100px 0px 70px 0px;
+}
+.client_success_area{
+	padding: 70px 0px 100px 0px;
+	background: #f9f9f9;
+}
+
 

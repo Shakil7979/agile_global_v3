@@ -476,10 +476,14 @@ ul li a,a{
 }
 
 .single_overlay_box > h3 {
-	font-size: 28px; 
-	color: #fff; 
-	font-weight: 700;
-	margin-bottom: 10px;
+	font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+    max-width: 185px;
+}
+.single_business_item1 h3{
+	max-width: 175px;
 }
 
 .single_overlay_box p {
@@ -2213,10 +2217,33 @@ button:focus {
 	text-transform: uppercase; 
 }
 
-.sk_single_team_item{
+
+.sk_single_team_item {
 	margin-bottom: 25px;
 	overflow: hidden;
+	cursor: pointer;
 }
+.modal_body_custom img{
+	width: 100%;
+	height: auto;
+}
+.modal-body {
+    padding: 40px 50px 80px 50px;
+}
+.modal-header {
+    padding: 30px 50px 0px 50px;
+    border-bottom: none;
+}
+.modal-title a {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #3a383f;
+    transition: 0.2s;
+}
+.modal-title a:hover{
+	margin-left: 5px;
+}
+
 
 .sk_single_tem_img{ 
 	overflow: hidden;
@@ -2639,3 +2666,61 @@ font-family: "Inter", sans-serif;
 	max-width: 100%;
 	font-size: 16px;
 }
+
+/*Start Awards Page*/
+.awards_banner_title p{
+	max-width: 500px;
+}
+.awards_accolades_main{
+	padding: 50px 0px 100px 0px;
+	background: #000000;
+}
+.awards_accolades_title h3,.awards_accolades_title h4{
+	color: #FFF;
+}
+.awards_accolades_contents img{
+	width: 100%;
+	height: auto;
+}
+.certifications_main{
+	padding: 40px 0px 70px 0px;
+}
+.certifications_contents_left p {
+    font-size: 18px;
+    color: #070707;
+    max-width: 570px;
+    display: flex;
+}
+.certifications_contents_left p span img{
+	width: 8px;
+	height: auto;
+	margin-right: 10px;
+}
+.certifications_contents_left p:first-child{
+	margin-bottom: 20px;
+}
+.certifications_contents{
+	display: flex;
+	justify-content: space-between;
+}
+.certifications_contents_right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.certifications_contents_right a img{
+	width: 150px;
+	height: auto;
+}
+.certifications_contents_right a:last-child img{
+	width: 120px;
+	height: auto;
+}
+.carrear_img img{
+	width: 100%;
+	height: auto;
+}
+
+
+/*End Awards Page*/
+

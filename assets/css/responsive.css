@@ -525,6 +525,9 @@
 .client_page_banner {
     margin-top: 10px !important;
 }
+.certifications_contents {
+    gap: 25px;
+}
 
 }
 
@@ -730,6 +733,12 @@
     .single_business_item h3 {
         font-size: 22px; 
     }
+    .action_careers .single_business_item h3 {
+        font-size: 20px; 
+    }
+    .excellent_in_action_title{
+        margin-bottom: 25px;
+    }
     .single_deep_item { 
         width: 100%;
     } 
@@ -836,6 +845,13 @@
     }
 .client_page_banner {
     padding: 55px 0;
+}
+.certifications_contents {
+    flex-direction: column;
+    align-items: center;
+}
+.certifications_contents_left {
+    order: 2;
 }
 
 }
@@ -1034,6 +1050,35 @@
 .resources_btn button {
     max-width: 100%;
     width: 100%;
+}
+.carrear_img img {
+    width: 100%;
+    height: auto;
+}
+.action_careers .single_business_item {
+    width: 275px;
+    height: 390px;
+    margin: auto;
+}
+
+.modal-body {
+    padding: 15px 20px 30px 20px;
+}
+.modal-header {
+    padding: 15px 20px 0px 20px;
+    border-bottom: none;
+}
+.modal-title a {
+    font-size: 13px;
+}
+.awards_accolades_main {
+    padding: 50px 0px 70px 0px;
+}
+.certifications_contents_left p {
+    font-size: 16px;
+}
+.certifications_main {
+    padding: 40px 0px 50px 0px;
 }
 
 }

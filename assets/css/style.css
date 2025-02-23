@@ -1614,6 +1614,24 @@ button:focus {
 	width: 100%;
 	height: 100%;
 } */
+ 
+.sk_img_btn_box .active{
+	display: none;
+}
+
+.sk_contact_btn .nav-link.active .sk_img_btn_box .active {
+	display: block;
+}
+
+.sk_contact_btn .nav-link.active .sk_img_btn_box .non_active {
+	display: none;
+}
+
+.active.sk_contact_first_img {
+	width: 52px !important;
+	margin-left: 13px;
+}
+
 
 .banner_contact .about_video {
     position: absolute;

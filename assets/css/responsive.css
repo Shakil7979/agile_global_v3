@@ -535,6 +535,9 @@
     .mobile_menu_child a {     
         font-size: 14px; 
     }  
+    .active.sk_contact_first_img {
+        width: 32px !important; 
+    }
     .select_rousrce {
         width: 128px;
     } 

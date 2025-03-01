@@ -1631,8 +1631,13 @@ button:focus {
 	width: 52px !important;
 	margin-left: 13px;
 }
-
-
+.footer_single.sk_mobile_mbe img {
+	width: 120px;
+}
+.footer_single.sk_mobile_mbe {
+	display: flex;
+	justify-content: flex-end;
+}
 .banner_contact .about_video {
     position: absolute;
     left: 0;

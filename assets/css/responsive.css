@@ -535,6 +535,12 @@
     .mobile_menu_child a {     
         font-size: 14px; 
     }  
+    .footer_single.sk_mobile_mbe img {
+        width: 90px;
+    }
+    .footer_single.sk_mobile_mbe { 
+        justify-content: start;
+    }
     .active.sk_contact_first_img {
         width: 32px !important; 
     }

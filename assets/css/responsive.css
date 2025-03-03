@@ -12,6 +12,9 @@
         padding: 50px 20px;
         border-radius: 30px;
     }
+    .sk_ul_ai p { 
+        max-width: 100%;
+    }
 }
 
 @media all and (max-width: 1199px){

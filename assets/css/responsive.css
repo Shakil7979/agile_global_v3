@@ -544,6 +544,9 @@
     .aimi_unlock .security_item_content:nth-child(8) .row {
         flex-direction: column-reverse;
     }
+    .aimi_unlock_ul { 
+        margin-bottom: 40px;
+    }
     .ai_carousel .owl-prev,
     .ai_carousel .owl-next { 
         bottom: -42px; 

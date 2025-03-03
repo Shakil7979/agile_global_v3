@@ -85,6 +85,26 @@ $(document).ready(function(){
         navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
     });
 
+    $('.ai_carousel').owlCarousel({
+        items: 4,
+        loop: true,
+        nav: true,
+        dots: false,
+        // autoplay: true,  
+        navText : ["<img src='assets/images/aiml/capable/left.png' >","<img src='assets/images/aiml/capable/right.png' >"],
+        responsive : { 
+            0 : {
+                items:1,
+            }, 
+            768 : { 
+		        items:2,
+            },
+            991 : { 
+		        items:4,
+            }
+        }
+    });
+
  
 
 	// Made Carousel

@@ -535,6 +535,14 @@
     .mobile_menu_child a {     
         font-size: 14px; 
     }  
+    .aimi_unlock .security_item_content:nth-child(2) .row,
+    .aimi_unlock .security_item_content:nth-child(4) .row,
+    .aimi_unlock .security_item_content:nth-child(6) .row,
+    .aimi_unlock .security_item_content:nth-child(8) .row {
+        flex-direction: column-reverse;
+    }
+    
+    
     .footer_single.sk_mobile_mbe img {
         width: 90px;
     }

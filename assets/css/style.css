@@ -453,6 +453,7 @@ ul li a,a{
 	bottom: -100%;
 	background: #F70504;
 	height: 100%;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	/* align-items: center; */
@@ -460,6 +461,38 @@ ul li a,a{
 	padding: 35px;
 	left: 0;
 	transition: 0.3s;
+}
+
+.single_capble_item img {
+ 
+	height: 100%;
+}
+
+.single_business_item { 
+	height: 480px;
+}
+
+
+.ai_carousel .owl-next {
+	position: absolute;
+	bottom: -64px;
+	right: 38px; 
+}
+
+.ai_carousel .owl-prev {
+	position: absolute;
+	bottom: -64px;
+	right: 90px; 
+}
+
+.ai_carousel  .owl-next:hover ,
+.ai_carousel  .owl-prev:hover {
+	outline: none;
+	background: transparent !important;
+}
+ 
+.ai_carousel  .owl-prev img {
+	width: 42px;
 }
 
 .single_business_item:hover .single_overlay_box {
@@ -2744,6 +2777,49 @@ font-family: "Inter", sans-serif;
 	height: auto;
 }
 
+.ai_bg {
+	background: url(../images/aiml/ai_bg.png) no-repeat scroll center center / cover;
+}
+
+
+.ai_carousel .single_overlay_box > h3 {
+	font-size: 16px; 
+}
+
+.sk_ul_ai p {
+	font-size: 13px;
+	line-height: 20px;
+	color: #000;
+}
+
+.sk_ul_ai li {
+	margin-top: 12px;
+}
+
+.aimi_unlock .security_text h3 { 
+	width: 100%;
+	max-width: 350px;
+}
+
+.aimi_unlock_ul li {
+	margin-top: 10px;
+}
+
+.aimi_unlock_ul i {
+	margin-right: 12px;
+	font-size: 16px;
+	margin-top: 7px;
+}
+
+.aimi_unlock_ul {
+	width: 100%;
+	max-width: 500px;
+}
+
+.aimi_unlock_ul p {
+	display: flex;
+	align-items: start;
+}
 
 /*End Awards Page*/
 

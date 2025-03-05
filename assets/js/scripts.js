@@ -105,6 +105,41 @@ $(document).ready(function(){
         }
     });
 
+    $('.utility_expart_carousel').owlCarousel({
+        items: 3.5,
+        loop: true,
+        margin: 20,
+        nav: true,
+        dots: false,
+        // autoplay: true,  
+        navText : ["<img src='assets/images/aiml/capable/left.png' >","<img src='assets/images/aiml/capable/right.png' >"],
+        responsive : { 
+            0 : {
+                items:1.2,
+            }, 
+            450 : {
+                items:1.5,
+            }, 
+            768 : { 
+		        items:2.5,
+            },
+            991 : { 
+                items: 3.5,
+            }
+        }
+    });
+
+    $(document).on("click", "a", function(event) {
+        var href = $(this).attr("href");
+
+        // Check if href is valid and not '#' or empty
+        if (href && href !== "#" && href !== "javascript:void(0);") {
+            window.location.href = href; // Force navigation
+        } else {
+            event.preventDefault(); // Prevent empty links from doing anything
+        }
+    });
+
  
 
 	// Made Carousel
@@ -147,7 +182,7 @@ $(document).ready(function(){
 		loop:true,
 		nav: true,
 		dots:false,
-		autoplay:true,
+		// autoplay:true,
 		navText : [' <img src="assets/images/homepage/utility/offer/left.png" alt="">',' <img src="assets/images/homepage/utility/offer/right.png" alt="">'],
         responsive : { 
             0 : {

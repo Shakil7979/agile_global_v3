@@ -90,6 +90,15 @@
         background: #000816;
         height: auto;
     } 
+    .single_expert_item ul li p {
+        font-size: 14px;
+    }
+    .single_expert_item ul li  {
+        margin-bottom: 5px;
+    }
+    .single_expert_item h3 {
+        font-size: 18px; 
+    }
     .action_careers .single_business_item { 
         max-width: 100%;
     }
@@ -538,6 +547,9 @@
     .mobile_menu_child a {     
         font-size: 14px; 
     }  
+    .utility_expart_carousel {
+        margin-bottom: 50px;
+    }
     .aimi_unlock .security_item_content:nth-child(2) .row,
     .aimi_unlock .security_item_content:nth-child(4) .row,
     .aimi_unlock .security_item_content:nth-child(6) .row,

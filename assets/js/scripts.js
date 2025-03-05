@@ -140,6 +140,13 @@ $(document).ready(function(){
         }
     });
 
+    $("a").each(function() {
+        var href = $(this).attr("href");
+        if (href && href.indexOf(".html") === -1) {
+            $(this).attr("href", href + ".html");
+        }
+    });
+
  
 
 	// Made Carousel

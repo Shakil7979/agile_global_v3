@@ -1630,6 +1630,10 @@ button:focus {
 	background: url(../images/homepage/cyber/bg.png) no-repeat scroll center center / cover; 
 }
 
+.banner_cyber2  {
+	background: url(../images/cyber2/bg.png) no-repeat scroll center center / cover; 
+}
+
 .banner_contact  {
 	/* background: url(../images/contact/bg.png) no-repeat scroll center center / cover;  */
 	position: relative;
@@ -2787,9 +2791,11 @@ font-family: "Inter", sans-serif;
 }
 
 .sk_ul_ai p {
-	font-size: 13px;
+	font-size: 14px;
 	line-height: 20px;
 	color: #000;
+	max-width: 100%;
+	text-align: justify;
 }
 
 .sk_ul_ai li {

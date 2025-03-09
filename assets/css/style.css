@@ -1626,6 +1626,10 @@ button:focus {
 	background: url(../images/homepage/utility/bg.png) no-repeat scroll center center / cover; 
 }
 
+.sitemap_banner  {
+	background: url(../images/sitemap/bg.png) no-repeat scroll center center / cover; 
+}
+
 .banner_cyber  {
 	background: url(../images/homepage/cyber/bg.png) no-repeat scroll center center / cover; 
 }
@@ -1636,6 +1640,10 @@ button:focus {
 
 .banner_contact  {
 	/* background: url(../images/contact/bg.png) no-repeat scroll center center / cover;  */
+	position: relative;
+}
+
+.sk_position{
 	position: relative;
 }
 
@@ -2828,12 +2836,13 @@ font-family: "Inter", sans-serif;
 }
 
 .single_expert_item {
-	background: #e4e4e8;
-	padding: 35px 20px; 
+	background: #fff;
+	padding: 35px 20px;
 	height: 385px;
 	border-radius: 15px;
 	margin-bottom: 15px;
 	box-shadow: 0 7px 10px #ddd;
+	border: 1px solid #ddd;
 }
 
 .offer_carousel.owl-carousel .owl-item img {
@@ -2886,6 +2895,33 @@ font-family: "Inter", sans-serif;
  
 .utility_expart_carousel  .owl-prev img {
 	width: 42px;
+}
+
+.sitemap_single ul li a {
+	color: #484553;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25px;
+}
+
+.sitemap_single ul li {
+	margin-bottom: 10px;
+}
+
+.sitemap_single ul li i {
+	margin-right: 18px;
+}
+
+.sitemap_single h3 {
+	font-size: 18px;
+	font-weight: 500;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 18px;
+}
+
+.sitemap_single {
+	margin-bottom: 25px;
 }
 
 

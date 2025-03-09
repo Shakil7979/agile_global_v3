@@ -547,6 +547,16 @@
     .mobile_menu_child a {     
         font-size: 14px; 
     }  
+    .sitemap_single ul li {
+        margin-bottom: 5px;
+    }
+    .sitemap_single h3 {
+        font-size: 16px; 
+    }
+    .sitemap_single ul li a { 
+        font-size: 14px; 
+        line-height: 20px;
+    }
     .utility_expart_carousel {
         margin-bottom: 50px;
     }

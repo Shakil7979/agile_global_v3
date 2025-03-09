@@ -2802,8 +2802,7 @@ font-family: "Inter", sans-serif;
 	font-size: 14px;
 	line-height: 20px;
 	color: #000;
-	max-width: 100%;
-	text-align: justify;
+	max-width: 100%; 
 }
 
 .sk_ul_ai li {

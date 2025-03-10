@@ -550,6 +550,25 @@
     .sitemap_single ul li {
         margin-bottom: 5px;
     }
+    .video_job {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; /* Ensures it stays in the background */
+    }
+    .video_job video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        object-fit: cover; /* Ensures full coverage without black bars */
+    }
     .car_releted_carousel .owl-prev {
         position: absolute;
         bottom: -76px;

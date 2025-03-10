@@ -224,6 +224,27 @@ $(document).ready(function(){
             }
         }
 	});
+	// Made Carousel
+	$('.car_releted_carousel').owlCarousel({
+		items:3,
+        margin : 30,
+		loop:true,
+		nav: true,
+		dots:false,
+		// autoplay:true,
+		navText : [' <i class="fa-solid fa-angle-left"></i>',' <i class="fa-solid fa-angle-right"></i>'],
+        responsive : { 
+            0 : {
+                items:1,
+            }, 
+            768 : { 
+		        items:2,
+            },
+            991 : { 
+		        items:3,
+            }
+        }
+	});
 
 	$('.back_to_top').click(function() { 
         $('html, body').animate({ scrollTop: 0 }, 'slow');

@@ -2951,7 +2951,93 @@ font-family: "Inter", sans-serif;
 	width: 100%;
 }
 
+.car_releted_img img{
+	width: 100% !important;
+} 
 
+.car_releted_content {
+	padding: 25px 10px;
+}
+
+.car_releted_single {
+	background: #fff;
+	box-shadow: 0 2px 10px #ddd;
+	margin: 10px 2px; 
+	height: 300px;
+}
+
+.car_releted_img {
+	position: relative;
+}
+
+.play_btn_car {
+	position: absolute;
+	bottom: 0;
+	background: #286592;
+	padding: 15px 20px;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.play_btn_car i,
+.play_btn_car p {
+	font-size: 18px;
+	color: #ffff;
+}
+
+.car_releted_content p {
+	font-size: 20px;
+}
+
+.car_releted_carousel{
+	position: relative;
+}
+
+.car_releted_carousel .owl-next {
+	position: absolute;
+	top: -22px;
+	right: 0px;
+}
+
+.car_releted_carousel .owl-prev {
+	position: absolute;
+	top: -22px;
+	right: 65px;
+}
+
+.car_releted_carousel .owl-next i ,
+.car_releted_carousel .owl-prev i {
+	font-size: 35px;
+}
+
+.subscribe_area {
+	background: url(../images/job/subscribeparallex-scaled.jpg) no-repeat fixed center center / cover;
+}
+
+.car_subscribe {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 85px 0;
+	text-align: center;
+}
+
+.car_subscribe ,
+.subscribe_forms { 
+	justify-content: center;
+}
+
+.car_subscribe h3 {
+	font-size: 40px;
+	color: #fff;
+	margin-bottom: 35px;
+}
+
+.car_subscribe p {
+	color: #fff;
+	margin-bottom: 40px;
+}
 
 /*End Awards Page*/
 

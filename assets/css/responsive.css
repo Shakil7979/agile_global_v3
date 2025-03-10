@@ -550,6 +550,30 @@
     .sitemap_single ul li {
         margin-bottom: 5px;
     }
+    .car_releted_carousel .owl-prev {
+        position: absolute;
+        bottom: -76px;
+        right: 0;
+        top: inherit;
+        left: 0;
+    }
+    .car_releted_single { 
+        height: auto;
+    }
+    .car_releted_carousel .owl-next i ,
+    .car_releted_carousel .owl-prev i {
+        font-size: 25px;
+    }
+    .car_subscribe { 
+        padding: 15px 0; 
+    }
+    .car_releted_carousel .owl-next {
+        position: absolute;
+        bottom: -76px;
+        right: 0;
+        top: inherit;
+        left: 0;
+    }
     
     .faqs-title { 
         font-weight: 900;

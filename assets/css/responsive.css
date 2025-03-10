@@ -558,6 +558,9 @@
         height: 100%;
         z-index: -1; /* Ensures it stays in the background */
     }
+    .banner_areaa.banner_area_career {
+        overflow: hidden;
+    }
     .video_job video {
         position: absolute;
         top: 50%;

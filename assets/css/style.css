@@ -3039,7 +3039,11 @@ font-family: "Inter", sans-serif;
 	margin-bottom: 40px;
 }
 
-.video_job::after {
+.banner_cyber22{
+	position: relative;
+}
+
+.banner_cyber22::after {
 	content: "";
 	position: absolute;
 	top: 0;

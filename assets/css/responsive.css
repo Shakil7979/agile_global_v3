@@ -550,6 +550,24 @@
     .sitemap_single ul li {
         margin-bottom: 5px;
     }
+    .casestudy_sin_banner { 
+        height: auto; 
+        padding: 55px 0;
+        margin-top: 79px;
+    }
+    .case_sing_banner_left h2 {
+        font-size: 29px; 
+        line-height: 42px;
+    }
+    .case_sing_banner_left h5 { 
+        font-size: 14px; 
+    }
+    .sk_justify {
+        text-align: left;
+    }
+    .case_sidebar {
+        margin-top: 40px;
+    }
     .video_job {
         position: absolute;
         top: 0;

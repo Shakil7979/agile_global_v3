@@ -57,6 +57,7 @@ $(document).ready(function(){
         loop: true,
         nav: false,
         dots: true,
+        autoplayTimeout: 10000,
         autoplay: true, 
         animateIn: 'fadeIn',   
         animateOut: 'fadeOut', 

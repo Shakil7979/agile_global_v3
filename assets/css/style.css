@@ -476,13 +476,15 @@ ul li a,a{
 .ai_carousel .owl-next {
 	position: absolute;
 	bottom: -64px;
-	right: 38px; 
+	left: 0;
+	right: -55px;
 }
 
 .ai_carousel .owl-prev {
 	position: absolute;
 	bottom: -64px;
-	right: 90px; 
+	right: 0;
+	left: -55px;
 }
 
 .ai_carousel  .owl-next:hover ,
@@ -1397,10 +1399,10 @@ button:focus {
 	padding: 25px 10px;
 }
 
-.single_work_item {
+/* .single_work_item {
 	background: #E7E6E6;
 
-}
+} */
 
 .banner_ut_text p {
 	margin-bottom: 16px !important;
@@ -1436,7 +1438,7 @@ button:focus {
 
 .blog_post_text span {
 	font-size: 12px;
-	color: #231116;
+	color: #f00d0d;
 	text-transform: uppercase;
 }
 
@@ -1840,16 +1842,19 @@ button:focus {
 .banner_ut_text { 
 	padding: 140px 0; 
 }
+
 .banner_ut_text h3 {
 	font-size: 54px;
 	color: #fff;
 	font-weight: 300;
+	font-family: "Inter", sans-serif;
 }
 
 .banner_ut_text p {
 	font-size: 24px;
 	color: #Fff;
-	margin-top: 15px;
+	font-family: "Inter", sans-serif;
+	margin: 20px 0 35px 0 !important;
 }
 
 .capability_area_img img { 
@@ -2146,7 +2151,7 @@ button:focus {
 }
 
 .about_banner .banner_ut_text{
-	margin-top: 250px;
+	margin-top: 220px;
 }
 
 .vission_area{
@@ -2679,12 +2684,7 @@ button:focus {
 
 /*======================  End Page  ======================*/
 
-/* 
 
-font-family: "DM Sans", sans-serif;
-font-family: "Inter", sans-serif; 
-
-*/
 
 
 
@@ -2896,13 +2896,15 @@ font-family: "Inter", sans-serif;
 .utility_expart_carousel .owl-next {
 	position: absolute;
 	bottom: -64px;
-	right: 38px; 
+	right: 0; 
+	right: -55px; 
 }
 
 .utility_expart_carousel .owl-prev {
 	position: absolute;
 	bottom: -64px;
-	right: 90px; 
+	left: 0;
+	left: -55px;
 }
 
 .utility_expart_carousel  .owl-next:hover ,
@@ -3209,9 +3211,9 @@ font-family: "Inter", sans-serif;
 }
 
 .key_text_tech_content h3 {
-	font-size: 32px;
+	font-size: 30px;
 	width: 100%;
-	max-width: 478px;
+	max-width: 453px;
 }
 
 .mobile_show_tech {
@@ -3227,6 +3229,43 @@ font-family: "Inter", sans-serif;
 	background: #ec7200 !important;
 }
 
+.after_h3.header_iv {
+	margin-top: 25px;
+}
+
+.after_h3.header_iv a {
+	font-size: 14px; 
+	letter-spacing: 1px;
+}
+
+.header_iv a::after {
+	height: 2px;
+}
+
+.resourche_item_img {  
+	overflow: hidden;
+}
+
+.resourche_item_img img {
+	transition: 0.3s; 
+	height: 250px;
+}
+
+.resourche_item_img img:hover {
+	transform: scale(1.2);
+}
+
+
+
+
+
+
 
 /*End Awards Page*/
 
+/* 
+
+font-family: "DM Sans", sans-serif;
+font-family: "Inter", sans-serif; 
+
+*/

@@ -107,7 +107,7 @@ $(document).ready(function(){
     });
 
     $('.utility_expart_carousel').owlCarousel({
-        items: 3.5,
+        items: 3,
         loop: true,
         margin: 20,
         nav: true,
@@ -116,16 +116,16 @@ $(document).ready(function(){
         navText : ["<img src='assets/images/aiml/capable/left.png' >","<img src='assets/images/aiml/capable/right.png' >"],
         responsive : { 
             0 : {
-                items:1.2,
+                items:1,
             }, 
             450 : {
-                items:1.5,
+                items:1,
             }, 
             768 : { 
-		        items:2.5,
+		        items:2,
             },
             991 : { 
-                items: 3.5,
+                items: 3,
             }
         }
     });

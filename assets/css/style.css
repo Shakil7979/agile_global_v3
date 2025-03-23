@@ -144,7 +144,12 @@ ul li a,a{
 }
 
 .banner_areaa {
-	position: relative;
+	position: relative; 
+}
+
+.banner_areaa.sk_banner_height {
+	height: 100vh;
+	overflow: hidden;
 }
 
 .drop_middle_menu > ul > li > a:after {
@@ -473,7 +478,7 @@ ul li a,a{
 }
 
 
-.ai_carousel .owl-next {
+/* .ai_carousel .owl-next {
 	position: absolute;
 	bottom: -64px;
 	left: 0;
@@ -485,7 +490,7 @@ ul li a,a{
 	bottom: -64px;
 	right: 0;
 	left: -55px;
-}
+} */
 
 .ai_carousel  .owl-next:hover ,
 .ai_carousel  .owl-prev:hover {
@@ -2151,7 +2156,7 @@ button:focus {
 }
 
 .about_banner .banner_ut_text{
-	margin-top: 220px;
+	margin-top: 185px;
 }
 
 .vission_area{
@@ -2893,19 +2898,19 @@ button:focus {
 }
 
 
-.utility_expart_carousel .owl-next {
+/* .utility_expart_carousel .owl-next {
 	position: absolute;
 	bottom: -64px;
-	right: 0; 
+	left: 0; 
 	right: -55px; 
 }
 
 .utility_expart_carousel .owl-prev {
 	position: absolute;
 	bottom: -64px;
-	left: 0;
+	right: 0;
 	left: -55px;
-}
+} */
 
 .utility_expart_carousel  .owl-next:hover ,
 .utility_expart_carousel  .owl-prev:hover {

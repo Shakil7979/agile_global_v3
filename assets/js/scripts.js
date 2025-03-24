@@ -462,6 +462,7 @@ $(document).ready(function() {
 
 
 
+
 // acordion for footer 
 $(document).ready(function() {
     // Handle accordion effect for mobile menu items

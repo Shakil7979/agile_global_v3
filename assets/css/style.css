@@ -3260,8 +3260,14 @@ button:focus {
 	transform: scale(1.2);
 }
 
+.key_text_black{
+	background-color: #000;
+}
 
-
+.key_text_color .overview_title h3 ,
+.key_text_color .overview_title p { 
+	color: #fff !important;
+}
 
 
 

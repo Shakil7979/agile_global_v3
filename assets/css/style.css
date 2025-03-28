@@ -152,6 +152,11 @@ ul li a,a{
 	overflow: hidden;
 }
 
+.banner_ut_text .btn_1 { 
+	font-size: 14px !important;
+	padding: 6px 14px !important; 
+}
+
 .drop_middle_menu > ul > li > a:after {
 	position: absolute;
 	content: "";

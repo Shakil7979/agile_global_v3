@@ -25,6 +25,11 @@
     .logo img {
         width: 175px;
     }
+    .current_opening_select {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
     .key_text_tech_content .overview_title p {
         font-size: 16px; 
     }
@@ -101,9 +106,21 @@
         background: #000816;
         height: auto;
     } 
+    
+    .banner_areaa.sk_banner_height {
+        height: inherit;
+        overflow: hidden;
+    }
     .key_text_tech_content .overview_title p {
         font-size: 14px;
         line-height: 18px;
+    }
+    .single_current_filter > ul li:nth-child(2) {
+        display: none;
+    }
+
+    .current_opening_select { 
+        margin-top: 25px;
     }
     .key_tech_cont_left, .key_tech_cont_right {
         max-width: 327px;
@@ -575,7 +592,15 @@
     .sitemap_single ul li {
         margin-bottom: 5px;
     }
-
+    .current_search input { 
+        width: 82%;
+    }
+     .key_text_color .overview_title p {
+        color: inherit !important;
+    }
+    .key_text_color .overview_title h3 { 
+        color: #084873 !important; 
+    }
     
     .mobile_show_tech {
         display: block;
@@ -1038,6 +1063,19 @@
         font-size: 25px;
         line-height: 30px;
         margin: 8px 0;
+    }
+    .current_left { 
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+    .current_search input {
+        width: 88%;
+    }
+    .single_current_filter > ul li:nth-child(3) {
+        display: none;
+    }
+    .current_opening_select {
+        margin-top: 15px;
     }
     
     .resource_content p {

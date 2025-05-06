@@ -141,12 +141,12 @@ $(document).ready(function(){
         }
     });
 
-    $("a").each(function() {
-        var href = $(this).attr("href");
-        if (href && href.indexOf(".html") === -1) {
-            $(this).attr("href", href + ".html");
-        }
-    });
+    // $("a").each(function() {
+    //     var href = $(this).attr("href");
+    //     if (href && href.indexOf(".html") === -1) {
+    //         $(this).attr("href", href + ".html");
+    //     }
+    // });
 
  
 
@@ -376,7 +376,7 @@ $(document).ready(function() {
     // Click outside of '.header_area' or '.menu' to hide dropdown and remove 'header_white'
     $(document).click(function(event) {
         if (!$(event.target).closest('.header_area, .menu').length) {
-            $('.header_area').removeClass('header_white');
+            // $('.header_area').removeClass('header_white');
             $('.drop_menu_main').slideUp(); // Hide all dropdowns with animation
             $('.menu ul li a i').css('transform', 'rotate(0deg)'); // Reset all icons
             currentMenu = null; // Reset the current menu
@@ -400,7 +400,8 @@ $(document).ready(function() {
     // Check width on window resize
     $(window).resize(function() {
         checkWidth();
-    });
+    }); 
+    
 });
 
 
@@ -572,4 +573,6 @@ for (let i = 0; i < acc.length; i++) {
   });
 }
  
+ 
 
+  

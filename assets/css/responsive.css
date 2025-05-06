@@ -1055,6 +1055,21 @@
 .certifications_contents_left {
     order: 2;
 }
+.current_open_bg {
+    position: relative;
+	background: url(../images/current-openning/bg.png) no-repeat scroll center right/ cover;
+}
+
+.current_open_bg:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+ 
 
 }
 
@@ -1199,7 +1214,13 @@
         font-size: 14px; 
     }
     .footer_logo h4 {
-        font-size: 14px;
+        font-size: 12px;
+    }
+    .drop_middle_menu ul li {
+        margin-bottom: 2px;
+    }
+    .drop_middle_menu {
+        padding: 2px 0;
     }
     .footer_logo img {
         width: 115px;

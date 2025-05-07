@@ -514,11 +514,7 @@ ul li a,a{
 .single_overlay_box2{ 
 	background: #F70504;
 	opacity: 95%;
-}
-
-.overview_title.capability_overview_title {
-	max-width: 69%;
-}
+} 
 
 .single_overlay_box > h3 {
 	font-size: 20px;
@@ -3386,6 +3382,41 @@ button:focus {
 
 .current_opening_data_area{
 	margin: 40px 0;
+}
+
+.mobile_show{
+    display: none;
+}
+.desktop_show{
+    display: block;
+}
+
+.tech_mobile_carousel,
+.delivery_owl_carousel{
+	position: relative;
+} 
+
+.tech_mobile_carousel .owl-next  ,
+.delivery_owl_carousel .owl-next  {
+	position: absolute;
+	top: 45%;
+	right: -30px; 
+}
+
+.tech_mobile_carousel .owl-prev ,
+.delivery_owl_carousel .owl-prev {
+	position: absolute;
+	top: 45%;
+	left: -30px;
+}
+
+.key_deef_carousel .owl-next:hover ,
+.key_deef_carousel .owl-prev:hover {
+	background: transparent !important;
+}
+
+.key_deef_carousel {
+	padding-bottom: 30px;
 }
 
 

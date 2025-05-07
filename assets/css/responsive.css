@@ -1069,8 +1069,18 @@
     height: 100%;
     background: rgba(0,0,0,0.5);
 }
- 
-
+.mobile_show{
+    display: block;
+}
+.desktop_show{
+    display: none;
+}
+.carrear_img.key_care_img { 
+	text-align: center;
+}
+.carrear_img.key_care_img img {
+	width: 100%; 
+}
 }
 
 @media all and (max-width: 575px){

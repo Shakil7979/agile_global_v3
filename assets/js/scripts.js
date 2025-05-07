@@ -246,6 +246,45 @@ $(document).ready(function(){
             }
         }
 	});
+	// Delivery Carousel
+	$('.delivery_owl_carousel').owlCarousel({
+		items:1,
+        margin : 30,
+		loop:true,
+		nav: true,
+		dots:false, 
+        navText : [' <img src="assets/images/homepage/utility/offer/left.png" alt="">',' <img src="assets/images/homepage/utility/offer/right.png" alt="">'],
+		  
+	});
+
+	// Technology Carousel
+	$('.tech_mobile_carousel').owlCarousel({
+		items:1,
+        margin : 30,
+		loop:true,
+		nav: true,
+		dots:false, 
+        navText : [' <img src="assets/images/homepage/utility/offer/left.png" alt="">',' <img src="assets/images/homepage/utility/offer/right.png" alt="">'],
+		  
+	});
+	$('.unlocking_owl_carousel').owlCarousel({
+		items:1,
+        margin : 30,
+		loop:true,
+		nav: true,
+		dots:false, 
+        navText : [' <img src="assets/images/aiml/capable/left.png" alt="">',' <img src="assets/images/aiml/capable/right.png" alt="">'],
+		  
+	});
+	$('.key_deef_carousel').owlCarousel({
+		items:1,
+        margin : 30,
+		loop:true,
+		nav: true,
+		dots:false, 
+        navText : [' <img src="assets/images/aiml/capable/left.png" alt="">',' <img src="assets/images/aiml/capable/right.png" alt="">'],
+		  
+	});
 
 	$('.back_to_top').click(function() { 
         $('html, body').animate({ scrollTop: 0 }, 'slow');

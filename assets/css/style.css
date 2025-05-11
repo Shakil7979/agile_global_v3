@@ -890,7 +890,7 @@ button:focus {
 }
 .footer_single a, .footer_single p {
 	color: #a7a7a7;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .footer_single ul {
@@ -913,6 +913,7 @@ button:focus {
 .footer_bottom_left ul {
 	display: flex;
 	gap: 40px;
+	align-items: center;
 }
 
 .footer_bottom {
@@ -3441,7 +3442,7 @@ button:focus {
 }
 
 .banner_ut_text.talent_banenr {
-	padding: 78px 0;
+	padding: 100px 0;
 }
 
 .current_opening_select {

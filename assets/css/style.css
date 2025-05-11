@@ -305,6 +305,9 @@ ul li a,a{
 	margin: 0 auto;
 }
 
+.overview_item{
+	position: relative;
+}
 
 .overview_item p {
 	color: #090800;
@@ -318,6 +321,15 @@ ul li a,a{
 	font-family: "Inter", sans-serif; 
 	font-size: 72px;
 	font-weight: 300;
+}
+
+.overview_item h5 {
+	color: #17476a;
+	font-family: "Inter", sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	position: absolute;
+	top: -8px;
 }
 
 .overview_row {
@@ -876,9 +888,15 @@ button:focus {
 .footer_bottom_left p{ 
 	color: #1a1628;
 }
-.footer_single a ,
-.footer_single p {
+.footer_single a, .footer_single p {
 	color: #a7a7a7;
+	font-size: 14px;
+}
+
+.footer_single ul {
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
 }
 
 
@@ -1705,7 +1723,7 @@ button:focus {
 	margin-left: 13px;
 }
 .footer_single.sk_mobile_mbe img {
-	width: 120px;
+	width: 100px;
 }
 .footer_single.sk_mobile_mbe {
 	display: flex;
@@ -1861,7 +1879,7 @@ button:focus {
 	font-size: 24px;
 	color: #Fff;
 	font-family: "Inter", sans-serif;
-	margin: 20px 0 35px 0 !important;
+	margin: 12px 0 22px 0 !important;
 }
 
 .capability_area_img img { 
@@ -2158,8 +2176,9 @@ button:focus {
 }
 
 .about_banner .banner_ut_text{
-	margin-top: 185px;
+	margin-top: 135px;
 }
+ 
 
 .vission_area{
 	background: url(../images/about/vission.png) no-repeat scroll center center / cover;
@@ -2949,7 +2968,7 @@ button:focus {
 .sitemap_single h3 {
 	font-size: 18px;
 	font-weight: 500;
-	color: #000;
+	color: #00008B ;
 	text-transform: uppercase;
 	margin-bottom: 18px;
 }
@@ -3101,16 +3120,16 @@ button:focus {
 
 .casestudy_sin_banner {
 	position: relative; 
-	height: 675px;  
+	height: 475px;  
 	z-index: 999;
-	background: #fff;
+	background: #000;
 	display: flex;
 	align-items: center;
 }
 
 
 .case_sing_banner_left h5 {
-	color: #000;
+	color: #fff;
 	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 4px;
@@ -3121,7 +3140,7 @@ button:focus {
 
 .case_sing_banner_left h2 {
 	font-size: 48px;
-	color: #000;
+	color: #fff;
 	font-weight: 500;
 	font-family: "Inter", sans-serif;
 	margin-bottom: 40px;
@@ -3143,15 +3162,17 @@ button:focus {
 	font-size: 24px;
 	font-weight: 700;
 	margin-bottom: 15px;
+	color: #00008B ;
 	position: relative;
 }
 
 .case_main_content p b {
 	color: #084873 !important;
 	font-size: 18px;
+	font-weight: 600;
 }
 
-.case_main_content h3:after {
+/* .case_main_content h3:after {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -3159,7 +3180,7 @@ button:focus {
 	background: red;
 	height: 2px;
 	width: 50px;
-}
+} */
 
 .releted_case_study > h3 {
 	font-size: 28px;
@@ -3417,6 +3438,24 @@ button:focus {
 
 .key_deef_carousel {
 	padding-bottom: 30px;
+}
+
+.banner_ut_text.talent_banenr {
+	padding: 78px 0;
+}
+
+.current_opening_select {
+	display: flex;
+	gap: 5px;
+}
+
+.sitemap_single li p {
+	font-weight: 700 !important;
+	color: #00008B;
+}
+
+.case_main_content p { 
+	font-size: 20px;
 }
 
 

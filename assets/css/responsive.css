@@ -115,8 +115,22 @@
         font-size: 14px;
         line-height: 18px;
     }
-    .single_current_filter > ul li:nth-child(2) {
+    /* .single_current_filter > ul li:nth-child(2) {
         display: none;
+    } */
+     .single_current_filter > ul { 
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    .single_current_filter ul li {
+        width: 100%;
+    }
+    .case_main_content p { 
+        font-size: 16px;
+    }
+    .single_current_filter p {
+        text-align: left;
     }
 
     .current_opening_select { 
@@ -589,6 +603,9 @@
     .mobile_menu_child a {     
         font-size: 14px; 
     }  
+    .case_main_content p { 
+        font-size: 14px;
+    }
     .sitemap_single ul li {
         margin-bottom: 5px;
     }
@@ -1096,9 +1113,9 @@
     .current_search input {
         width: 88%;
     }
-    .single_current_filter > ul li:nth-child(3) {
+    /* .single_current_filter > ul li:nth-child(3) {
         display: none;
-    }
+    } */
     .current_opening_select {
         margin-top: 15px;
     }
